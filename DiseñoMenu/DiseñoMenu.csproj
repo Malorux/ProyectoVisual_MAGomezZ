@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="abrir.bmp" />
+    <None Remove="copiar.bmp" />
+    <None Remove="cortar.bmp" />
+    <None Remove="guardar.bmp" />
+    <None Remove="lupa.bmp" />
+    <None Remove="Nuevo.bmp" />
+    <None Remove="pegar.bmp" />
+    <None Remove="Resources\abrir.bmp" />
+    <None Remove="Resources\copiar.bmp" />
+    <None Remove="Resources\cortar.bmp" />
+    <None Remove="Resources\guardar.bmp" />
+    <None Remove="Resources\lupa.bmp" />
+    <None Remove="Resources\Nuevo.bmp" />
+    <None Remove="Resources\pegar.bmp" />
+    <None Remove="Resources\seleccionar.bmp" />
+    <None Remove="seleccionar.bmp" />
+    <None Remove="seleccionar.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignColors" Version="1.2.7" />
+    <PackageReference Include="MaterialDesignThemes" Version="3.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\abrir.bmp" />
+    <Resource Include="Resources\copiar.bmp" />
+    <Resource Include="Resources\cortar.bmp" />
+    <Resource Include="Resources\guardar.bmp" />
+    <Resource Include="Resources\lupa.bmp" />
+    <Resource Include="Resources\Nuevo.bmp" />
+    <Resource Include="Resources\pegar.bmp" />
+    <Resource Include="Resources\seleccionar.bmp" />
+  </ItemGroup>
+
+</Project>

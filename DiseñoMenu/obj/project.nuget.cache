@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "qGmLVRzb2UhwzXSdp+Qlq7BdgZsP2MfXkD8gLZVNafKJODuyKfURYMKv8j8uy4gt445HK+MzAUYg823aNzuL2w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mauro\\source\\repos\\DiseñoMenu\\DiseñoMenu\\DiseñoMenu.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mauro\\.nuget\\packages\\materialdesigncolors\\1.2.7\\materialdesigncolors.1.2.7.nupkg.sha512",
+    "C:\\Users\\Mauro\\.nuget\\packages\\materialdesignthemes\\3.2.0\\materialdesignthemes.3.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
